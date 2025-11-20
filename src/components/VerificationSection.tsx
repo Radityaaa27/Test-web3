@@ -12,9 +12,9 @@ const VerificationSection = () => {
   return (
     <section id="verification" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-12 animate-fade-in">
+        <div className="flex flex-col items-center text-center mb-12 animate-fade-in">
           <h2 className="text-4xl font-bold mb-4">
-            <span className="bg-gradient-primary bg-clip-text text-transparent">
+            <span className="bg-gradient-primary bg-clip-text text-primary">
               Multi-Lapisan
             </span>{" "}
             Verifikasi

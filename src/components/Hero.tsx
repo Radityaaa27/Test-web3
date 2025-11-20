@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Identitas Digital Anda
             <br />
-            <span className="bg-gradient-primary bg-clip-text text-transparent">
+            <span className="bg-gradient-primary bg-clip-text text-primary">
               Aman Selamanya
             </span>
           </h1>
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button size="lg" className="gradient-primary text-primary-foreground shadow-glow hover:shadow-glow hover:scale-105 transition-all">
               <Shield className="w-5 h-5 mr-2" />
-              Buat Identitas
+              Coba Sekarang
             </Button>
             <Button size="lg" variant="outline" className="border-border hover:bg-secondary">
               Pelajari Lebih Lanjut

@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-primary">
                 <Shield className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="font-bold bg-gradient-primary bg-clip-text text-transparent">ChainID</span>
+              <span className="font-bold bg-gradient-primary bg-clip-text text-primary">ChainID</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Mengamankan identitas digital dengan teknologi blockchain.

@@ -13,9 +13,9 @@ const IdentityDashboard = () => {
   return (
     <section id="dashboard" className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-12 animate-fade-in">
+        <div className="flex flex-col items-center text-center mb-12 animate-fade-in">
           <h2 className="text-4xl font-bold mb-4">
-            Dasbor <span className="bg-gradient-primary bg-clip-text text-transparent">Identitas</span>
+            Dasbor <span className="bg-gradient-primary bg-clip-text text-primary">Identitas</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Kelola identitas terdesentralisasi dan kredensial Anda
@@ -24,13 +24,13 @@ const IdentityDashboard = () => {
         
         <div className="grid md:grid-cols-2 gap-6">
           {/* Main Identity Card */}
-          <Card className="shadow-card border-border/50 animate-slide-up overflow-hidden">
+          <Card className="shadow-md border-border/50 animate-slide-up overflow-hidden">
             <div className="h-24 gradient-primary"></div>
             <CardHeader className="-mt-12">
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-4">
                   <div className="w-20 h-20 rounded-full bg-card border-4 border-card flex items-center justify-center gradient-card shadow-lg">
-                    <User className="w-10 h-10 text-primary" />
+                    <img src={"https://i.pinimg.com/736x/84/2a/66/842a6664e322f21bf6019f91b99084f9.jpg"} className="w-full h-full object-cover rounded-full" />
                   </div>
                   <div>
                     <CardTitle className="text-2xl flex items-center gap-2">
@@ -78,7 +78,7 @@ const IdentityDashboard = () => {
           
           {/* Credentials Section */}
           <div className="space-y-6">
-            <Card className="shadow-card border-border/50 animate-slide-up" style={{ animationDelay: '0.1s' }}>
+            <Card className="shadow-md border-border/50 animate-slide-up" style={{ animationDelay: '0.1s' }}>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Shield className="w-5 h-5 text-primary" />
@@ -128,7 +128,7 @@ const IdentityDashboard = () => {
               </CardContent>
             </Card>
             
-            <Card className="shadow-card border-border/50 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+            <Card className="shadow-md border-border/50 animate-slide-up" style={{ animationDelay: '0.2s' }}>
               <CardHeader>
                 <CardTitle>Aktivitas Terkini</CardTitle>
                 <CardDescription>Transaksi blockchain terbaru</CardDescription>
