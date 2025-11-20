@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { User, Mail, MapPin, Calendar, CheckCircle2, Shield, ExternalLink, Copy } from "lucide-react";
+import { Mail, MapPin, Calendar, CheckCircle2, Shield, ExternalLink, Copy } from "lucide-react";
 import { toast } from "sonner";
 
 const IdentityDashboard = () => {
